@@ -57,3 +57,5 @@ done
 # Now that the file is found, run the Nextflow command with the optional flags
 echo "Starting Nextflow..."
 nextflow run KGVejle/demultiplex -r main --runfolder "${RUN_FOLDER}" --samplesheet "${SAMPLE_SHEET}" ${DNA_FLAG} ${RNA_FLAG}
+
+
